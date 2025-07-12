@@ -1,0 +1,52 @@
+.base-node {
+  width: 250px;
+  min-height: 150px;
+  background: linear-gradient(145deg, #6e7dff, #4a54e1);
+  border: none;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  color: #fff;
+  position: relative;
+  box-sizing: border-box;
+  transition: transform 0.3s ease-in-out;
+}
+
+.base-node:hover {
+  transform: scale(1.05);
+}
+
+.base-node-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.base-node-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.base-node-close {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 23px;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+  transition: color 0.2s ease;
+}
+
+.base-node-close:hover {
+  color: #ff6b6b; 
+}
