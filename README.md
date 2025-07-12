@@ -44,4 +44,6 @@ If your frontend is inside a subfolder like `frontend/`, navigate into it:
 
 ```bash
 cd frontend
+<img width="1440" height="897" alt="Screenshot 2025-07-12 at 4 52 58 PM" src="https://github.com/user-attachments/assets/2c8ad1af-4aa8-4ddb-b580-6f791e160136" />
+
 
