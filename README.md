@@ -1,10 +1,10 @@
-# 🚀 FastAPI Graph Builder
+#  FastAPI Graph Builder
 
 A simple FastAPI server that receives a graph (nodes and edges) as JSON input, builds it using NetworkX, and returns the resulting structure.
 
 ---
 
-## 📦 Features
+##  Features
 
 - Accepts graph input via REST API (`/build-graph/`)
 - Uses **FastAPI** for the backend
@@ -14,7 +14,7 @@ A simple FastAPI server that receives a graph (nodes and edges) as JSON input, b
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - Python 3.8+
 - FastAPI
@@ -23,26 +23,4 @@ A simple FastAPI server that receives a graph (nodes and edges) as JSON input, b
 - NetworkX
 
 ---
-
-## ⚙️ Setup Instructions
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-
----
-
-## 🌐 Frontend (React or other)
-
-This frontend connects to the FastAPI backend and sends graph data to visualize or interact with it.
-
-### 📁 Location
-
-If your frontend is inside a subfolder like `frontend/`, navigate into it:
-
-```bash
-cd frontend
-
 
